@@ -1,0 +1,6 @@
+framework module Pods_swift_school_lab {
+  umbrella header "Pods-swift-school-lab-umbrella.h"
+
+  export *
+  module * { export * }
+}
