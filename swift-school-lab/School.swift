@@ -1,6 +1,6 @@
 //
 //  School.swift
-//  Hospital
+//  School
 
 
 enum Punishment {

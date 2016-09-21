@@ -1,12 +1,13 @@
 //
 //  SchoolEmployeeTests.swift
-//  Hospital
+//  
 
 import Quick
 import Nimble
-@testable import Hospital
+@testable import SchoolEmployees
 
 class SchoolEmployeeSpec: QuickSpec {
+    
     override func spec() {
         
         var testBoardMember = AdvisoryBoardMember(name: "Bill", vacationDays: 30)

@@ -1,8 +1,6 @@
 //
 //  SchoolEmployees.swift
-//  Hospital
-
-
+//  SchoolEmployees
 
 
 struct AdvisoryBoardMember {

@@ -2,8 +2,8 @@
 //  ViewController.swift
 //  swift-school-lab
 //
-//  Created by Flatiron School on 9/21/16.
-//  Copyright © 2016 Ian Rahman. All rights reserved.
+//  Created by Ian Rahman on 9/21/16.
+//  Copyright © 2016 Flatiron School. All rights reserved.
 //
 
 import UIKit

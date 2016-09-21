@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		1B2EEC1B1D92E6D000AF5689 /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EEC191D92E6D000AF5689 /* ProtocolTests.swift */; };
+		1B2EEC1B1D92E6D000AF5689 /* SchoolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EEC191D92E6D000AF5689 /* SchoolTests.swift */; };
 		1B2EEC1C1D92E6D000AF5689 /* SchoolEmployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EEC1A1D92E6D000AF5689 /* SchoolEmployeeTests.swift */; };
+		1B2EEC1F1D92E72300AF5689 /* School.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EEC1D1D92E72300AF5689 /* School.swift */; };
+		1B2EEC201D92E72300AF5689 /* SchoolEmployees.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EEC1E1D92E72300AF5689 /* SchoolEmployees.swift */; };
 		1BA32D3F1D92E27900EE126D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA32D3E1D92E27900EE126D /* AppDelegate.swift */; };
 		1BA32D411D92E27900EE126D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA32D401D92E27900EE126D /* ViewController.swift */; };
 		1BA32D441D92E27900EE126D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA32D421D92E27900EE126D /* Main.storyboard */; };
@@ -30,8 +32,10 @@
 
 /* Begin PBXFileReference section */
 		1B2EEC181D92E6D000AF5689 /* swift-school-labTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-school-labTests-Bridging-Header.h"; sourceTree = "<group>"; };
-		1B2EEC191D92E6D000AF5689 /* ProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolTests.swift; sourceTree = "<group>"; };
+		1B2EEC191D92E6D000AF5689 /* SchoolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolTests.swift; sourceTree = "<group>"; };
 		1B2EEC1A1D92E6D000AF5689 /* SchoolEmployeeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolEmployeeTests.swift; sourceTree = "<group>"; };
+		1B2EEC1D1D92E72300AF5689 /* School.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = School.swift; sourceTree = "<group>"; };
+		1B2EEC1E1D92E72300AF5689 /* SchoolEmployees.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolEmployees.swift; sourceTree = "<group>"; };
 		1BA32D3B1D92E27900EE126D /* swift-school-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-school-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA32D3E1D92E27900EE126D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BA32D401D92E27900EE126D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -69,6 +73,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1B2EEC211D92E72D00AF5689 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				1BA32D421D92E27900EE126D /* Main.storyboard */,
+				1BA32D451D92E27900EE126D /* Assets.xcassets */,
+				1BA32D471D92E27900EE126D /* LaunchScreen.storyboard */,
+				1BA32D4A1D92E27900EE126D /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		1BA32D321D92E27800EE126D = {
 			isa = PBXGroup;
 			children = (
@@ -94,10 +109,9 @@
 			children = (
 				1BA32D3E1D92E27900EE126D /* AppDelegate.swift */,
 				1BA32D401D92E27900EE126D /* ViewController.swift */,
-				1BA32D421D92E27900EE126D /* Main.storyboard */,
-				1BA32D451D92E27900EE126D /* Assets.xcassets */,
-				1BA32D471D92E27900EE126D /* LaunchScreen.storyboard */,
-				1BA32D4A1D92E27900EE126D /* Info.plist */,
+				1B2EEC1D1D92E72300AF5689 /* School.swift */,
+				1B2EEC1E1D92E72300AF5689 /* SchoolEmployees.swift */,
+				1B2EEC211D92E72D00AF5689 /* Resources */,
 			);
 			path = "swift-school-lab";
 			sourceTree = "<group>";
@@ -105,7 +119,7 @@
 		1BA32D521D92E27900EE126D /* swift-school-labTests */ = {
 			isa = PBXGroup;
 			children = (
-				1B2EEC191D92E6D000AF5689 /* ProtocolTests.swift */,
+				1B2EEC191D92E6D000AF5689 /* SchoolTests.swift */,
 				1B2EEC1A1D92E6D000AF5689 /* SchoolEmployeeTests.swift */,
 				1BA32D551D92E27900EE126D /* Info.plist */,
 				1B2EEC181D92E6D000AF5689 /* swift-school-labTests-Bridging-Header.h */,
@@ -339,7 +353,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				1BA32D411D92E27900EE126D /* ViewController.swift in Sources */,
+				1B2EEC1F1D92E72300AF5689 /* School.swift in Sources */,
 				1BA32D3F1D92E27900EE126D /* AppDelegate.swift in Sources */,
+				1B2EEC201D92E72300AF5689 /* SchoolEmployees.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -347,7 +363,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1B2EEC1B1D92E6D000AF5689 /* ProtocolTests.swift in Sources */,
+				1B2EEC1B1D92E6D000AF5689 /* SchoolTests.swift in Sources */,
 				1B2EEC1C1D92E6D000AF5689 /* SchoolEmployeeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

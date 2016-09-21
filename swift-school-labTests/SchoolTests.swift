@@ -1,10 +1,10 @@
 //
 //  ProtocolTests.swift
-//  Hospital
+//  
 
 import Quick
 import Nimble
-@testable import Hospital
+@testable import School
 
 class ProtocolSpec: QuickSpec {
     

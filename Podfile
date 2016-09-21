@@ -2,19 +2,20 @@
 # platform :ios, '9.0'
 
 target 'swift-school-lab' do
-  # Comment this line if you're not using Swift and don't want to use dynamic frameworks
-  use_frameworks!
+    # Comment this line if you're not using Swift and don't want to use dynamic frameworks
+    use_frameworks!
+    
+    # Pods for swift-school-lab
+    def testing_pods
+      pod 'Nimble', git: 'https://github.com/Quick/Nimble.git'
+      pod 'Quick', git: 'https://github.com/Quick/Quick.git', branch: 'swift-3.0'
+    end
 
-  # Pods for swift-school-lab
-  def testing_pods
-    pod 'Nimble', git: 'https://github.com/Quick/Nimble.git'
-    pod 'Quick', git: 'https://github.com/Quick/Quick.git', branch: 'swift-3.0'
-  end
-
-  target 'swift-school-labTests' do
-    inherit! :search_paths
-    # Pods for testing
-  end
+    target 'swift-school-labTests' do
+      inherit! :search_paths
+      # Pods for testing
+      testing_pods
+    end
 
 end
 
