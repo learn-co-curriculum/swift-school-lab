@@ -7,12 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1B2EEC1B1D92E6D000AF5689 /* ProtocolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EEC191D92E6D000AF5689 /* ProtocolTests.swift */; };
+		1B2EEC1C1D92E6D000AF5689 /* SchoolEmployeeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1B2EEC1A1D92E6D000AF5689 /* SchoolEmployeeTests.swift */; };
 		1BA32D3F1D92E27900EE126D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA32D3E1D92E27900EE126D /* AppDelegate.swift */; };
 		1BA32D411D92E27900EE126D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA32D401D92E27900EE126D /* ViewController.swift */; };
 		1BA32D441D92E27900EE126D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA32D421D92E27900EE126D /* Main.storyboard */; };
 		1BA32D461D92E27900EE126D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1BA32D451D92E27900EE126D /* Assets.xcassets */; };
 		1BA32D491D92E27900EE126D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1BA32D471D92E27900EE126D /* LaunchScreen.storyboard */; };
-		1BA32D541D92E27900EE126D /* swift_school_labTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA32D531D92E27900EE126D /* swift_school_labTests.swift */; };
 		6FAF20E0A96907F0A82955D4 /* Pods_swift_school_labTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2F8C441DD0013542B1FC2561 /* Pods_swift_school_labTests.framework */; };
 		F8392EFEAAA3B96A9F4E114A /* Pods_swift_school_lab.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D4CA7631B35E3CC4FF197533 /* Pods_swift_school_lab.framework */; };
 /* End PBXBuildFile section */
@@ -28,6 +29,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		1B2EEC181D92E6D000AF5689 /* swift-school-labTests-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "swift-school-labTests-Bridging-Header.h"; sourceTree = "<group>"; };
+		1B2EEC191D92E6D000AF5689 /* ProtocolTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProtocolTests.swift; sourceTree = "<group>"; };
+		1B2EEC1A1D92E6D000AF5689 /* SchoolEmployeeTests.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SchoolEmployeeTests.swift; sourceTree = "<group>"; };
 		1BA32D3B1D92E27900EE126D /* swift-school-lab.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "swift-school-lab.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1BA32D3E1D92E27900EE126D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1BA32D401D92E27900EE126D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -36,7 +40,6 @@
 		1BA32D481D92E27900EE126D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1BA32D4A1D92E27900EE126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1BA32D4F1D92E27900EE126D /* swift-school-labTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "swift-school-labTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
-		1BA32D531D92E27900EE126D /* swift_school_labTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = swift_school_labTests.swift; sourceTree = "<group>"; };
 		1BA32D551D92E27900EE126D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2F8C441DD0013542B1FC2561 /* Pods_swift_school_labTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_swift_school_labTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		5A5D09E66AABDF8BC4CBD98E /* Pods-swift-school-labTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-swift-school-labTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-swift-school-labTests/Pods-swift-school-labTests.release.xcconfig"; sourceTree = "<group>"; };
@@ -102,8 +105,10 @@
 		1BA32D521D92E27900EE126D /* swift-school-labTests */ = {
 			isa = PBXGroup;
 			children = (
-				1BA32D531D92E27900EE126D /* swift_school_labTests.swift */,
+				1B2EEC191D92E6D000AF5689 /* ProtocolTests.swift */,
+				1B2EEC1A1D92E6D000AF5689 /* SchoolEmployeeTests.swift */,
 				1BA32D551D92E27900EE126D /* Info.plist */,
+				1B2EEC181D92E6D000AF5689 /* swift-school-labTests-Bridging-Header.h */,
 			);
 			path = "swift-school-labTests";
 			sourceTree = "<group>";
@@ -190,6 +195,7 @@
 					1BA32D4E1D92E27900EE126D = {
 						CreatedOnToolsVersion = 8.0;
 						DevelopmentTeam = KXY9EDFTF5;
+						LastSwiftMigration = 0800;
 						ProvisioningStyle = Automatic;
 						TestTargetID = 1BA32D3A1D92E27800EE126D;
 					};
@@ -341,7 +347,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				1BA32D541D92E27900EE126D /* swift_school_labTests.swift in Sources */,
+				1B2EEC1B1D92E6D000AF5689 /* ProtocolTests.swift in Sources */,
+				1B2EEC1C1D92E6D000AF5689 /* SchoolEmployeeTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -393,6 +400,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -443,6 +451,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -502,11 +511,14 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KXY9EDFTF5;
 				INFOPLIST_FILE = "swift-school-labTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IanRahman.swift-school-labTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift-school-labTests/swift-school-labTests-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-school-lab.app/swift-school-lab";
 			};
@@ -518,11 +530,13 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ENABLE_MODULES = YES;
 				DEVELOPMENT_TEAM = KXY9EDFTF5;
 				INFOPLIST_FILE = "swift-school-labTests/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "com.IanRahman.swift-school-labTests";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "swift-school-labTests/swift-school-labTests-Bridging-Header.h";
 				SWIFT_VERSION = 3.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/swift-school-lab.app/swift-school-lab";
 			};
